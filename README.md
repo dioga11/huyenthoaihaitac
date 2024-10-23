@@ -23,7 +23,7 @@
 
 ```bash
 function install () {
-  clear; curl -L --max-redirs 15 --progress-bar "https://raw.githubusercontent.com/dioga11/huyenthoaihaitac/main/script_install2.sh" --output script_install2.sh && bash script_install2.sh || echo "Internet ERROR"; unset install
+  clear; curl -L --max-redirs 15 --progress-bar "https://raw.githubusercontent.com/dioga11/huyenthoaihaitac/main/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
 }
 install
 ```
